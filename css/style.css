@@ -1,5 +1,8 @@
 body{
-    background-color: #D5E1EF;
+    background-image: url("/images/pattern-background-desktop.svg");
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-color: #E0E8FE;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -17,11 +20,15 @@ body{
     width: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
+    
 }
 
+.container_branco{
+    padding: 12%;
+}
 .img_top > img{
     height: 180px;
-    width: 300px; 
+    width: 400px; 
     border-radius: 15px 15px 0px 0px;
 }
 
@@ -31,31 +38,30 @@ body{
     font-family: 'Outfit', sans-serif;
     color: hsl(218, 44%, 22%);
     font-weight: bolder;
-    padding-top: 10%;
     padding-bottom: 5%;
     letter-spacing: 0px;
     text-align: center;
-    font-size: 23px;
+    font-size: 21px;
     padding-left: 10px;
 }
 
 .text{
+    
     font-family: 'Outfit', sans-serif;
     letter-spacing: 0px;
     color: #818186;
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: lighter;
     padding-bottom: 10%;
     letter-spacing: 0px;
-    width: 100px;
+    width: 300px;
 }
 
 
 .plan{
-    /* display: flex;
-    flex-direction: row;
-    justify-content: flex-start; */
+  
+    
     background-color:#f5f7ff;
     border-radius: 15px;
 }
@@ -69,15 +75,80 @@ body{
 
 }
 
- .plan > .text{
+  .texto{
+    
     font-family: 'Outfit', sans-serif;
     letter-spacing: 0px;
     color: #818186;
     font-size: 18px;
     font-weight: lighter;
-
-
 }
+
+.alert {
+    background-color: #F8F9FE;
+    display: flex;
+    padding: 20px;
+    border-radius: 8px;
+    align-items: center;
+  }
+  
+  .alert__label {
+    margin-left: 15px;
+  }
+  
+  .alert__label > h4 {
+    font-family: 'Outfit', sans-serif;
+    color: #090909;
+    font-weight: 900;
+    margin-bottom: 7%;
+  }
+  
+  .alert__label > p {
+    
+    font-family: 'Outfit', sans-serif;
+    color: #474747;
+  }
+
+  button{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 12px;
+  }
+  
+  .alert > button {
+ 
+    margin-left: auto;
+    color: #382AE1;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .alert > button:hover {
+    text-decoration: none;
+    color: #283038;
+  }
+
+
+  .payment > button{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: #382AE1;
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    align-items: center;
+    color: #D5E1EF;
+    box-shadow: 0 4px 8px 0 rgba(75, 71, 87, 0.2), 0 6px 20px 0 rgba(65, 48, 81, 0.19);
+    
+  }
+
+  .cancel > button{
+      color: #696E87;
+  }
+  
 
 
 
